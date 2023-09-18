@@ -2,7 +2,9 @@
 
 An example web app that demonstrates how you can mint NFTs on the Hedera network using [HashPack ](https://hips.hedera.com/hip/hip-412) or [Blade](https://hips.hedera.com/hip/hip-412) wallet and upload metadata with an image to IPFS provider supporting [HIP-412 standard](https://hips.hedera.com/hip/hip-412). App also included simply ``My NFT Gallery`` page, where connected user NFTs are listed.
 
-![UI_welcome-screen](src/assets/images/readme/mintbar_welcome-screen.png)
+![Screenshot (319)](https://github.com/Prasannaverse13/NFT-Mintbar/assets/116105281/d0f4ccd8-c846-4f4a-add9-6ddd5d33c542)
+![Screenshot (321)](https://github.com/Prasannaverse13/NFT-Mintbar/assets/116105281/3aec45f1-7931-4329-9036-703adc9fe3e2)
+
 
 #### Built With
 
@@ -18,8 +20,7 @@ An example web app that demonstrates how you can mint NFTs on the Hedera network
 - [WebPack](https://webpack.js.org/) - Static module bundler for modern JavaScript applications
 
 ## Created by
- - Norbert Kulus
- - Patryk Matyjasiak
+ - NFT NINIJAS TEAM
 
 ## Prerequisites
 
@@ -142,8 +143,7 @@ const {
     connectedWalletType,
     connect,
     disconnect,
-    sendTransaction,
-} = useHederaWallets()
+    sendTransaction, } = useHederaWallets()
 ```
 #### URL (*src/routes/base.tsx*)
 The application has:
@@ -154,42 +154,6 @@ The application has:
 
 **axios** library is used to make HTTP Calls. https://axios-http.com/
 
-#### Hedera calls
-- **@hashgraph/sdk**: to generate Hedera transactions. https://github.com/hashgraph/hedera-sdk-js
-- **@bladelabs/blade-web3.js**: for submitting transactions with Blade wallet. https://github.com/Blade-Labs/blade-web3.js
-- **hashconnect**: for submitting transactions with HashPack wallet. https://www.hashpack.app/hashconnect
-
-## UI Resources
-- **ReactJS** : Refer to https://reactjs.org/ to understand the concepts of ReactJS
-- **classnames**: https://github.com/JedWatson/classnames#readme
-- **lodash**: https://lodash.com/
-- **formik**: Reactive forms with https://formik.org/
-- **yup**: Easy form validation https://github.com/jquense/yup
-- **react-transition-group** : https://reactcommunity.org/react-transition-group/
-- **react-toastify**: https://github.com/fkhadra/react-toastify#readme
-- **react-scrollbars-custom**: https://github.com/xobotyi/react-scrollbars-custom
-- **react-dropzone**: https://react-dropzone.js.org/
-- **body-scroll-lock**: https://github.com/willmcpo/body-scroll-lock#readme
-
-
-## Disclaimer
-
-This is just a simple demo application. Please use responsibly.
-
-[File an issue](/issues) if you see problems.
-
-## Contributing
-
-Contributions are welcome. Please see the
-[contributing guide](https://github.com/hashgraph/.github/blob/main/CONTRIBUTING.md)
-to see how you can get involved.
-
-## Code of Conduct
-
-This project is governed by the
-[Contributor Covenant Code of Conduct](https://github.com/hashgraph/.github/blob/main/CODE_OF_CONDUCT.md). By
-participating, you are expected to uphold this code of conduct. Please report unacceptable behavior
-to [oss@hedera.com](mailto:oss@hedera.com).
 
 ## LICENSE
 
