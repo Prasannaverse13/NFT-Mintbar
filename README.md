@@ -19,8 +19,6 @@ An example web app that demonstrates how you can mint NFTs on the Hedera network
 - [BabelJS](https://babeljs.io/) - A real-time client-to-server framework for node.js
 - [WebPack](https://webpack.js.org/) - Static module bundler for modern JavaScript applications
 
-## Created by
- - NFT NINIJAS TEAM
 
 ## Prerequisites
 
