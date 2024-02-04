@@ -1,6 +1,4 @@
-# Hedera NFT Minter App
-
-An example web app that demonstrates how you can mint NFTs on the Hedera network using [HashPack ](https://hips.hedera.com/hip/hip-412) or [Blade](https://hips.hedera.com/hip/hip-412) wallet and upload metadata with an image to IPFS provider supporting [HIP-412 standard](https://hips.hedera.com/hip/hip-412). App also included simply ``My NFT Gallery`` page, where connected user NFTs are listed.
+  # Liteflow NFT Minter App
 
 ![Screenshot (319)](https://github.com/Prasannaverse13/NFT-Mintbar/assets/116105281/d0f4ccd8-c846-4f4a-add9-6ddd5d33c542)
 ![Screenshot (321)](https://github.com/Prasannaverse13/NFT-Mintbar/assets/116105281/3aec45f1-7931-4329-9036-703adc9fe3e2)
@@ -8,6 +6,8 @@ An example web app that demonstrates how you can mint NFTs on the Hedera network
 
 #### Built With
 
+- [Liteflow](https://liteflow.com/) - NFT Infrastructure Simplified
+Empowering businesses of all sizes to confidently build, launch, and manage Web3 platforms with a scalable suite of NFT APIs & tools.
 - [Hedera Hashgraph](https://www.hedera.com/) - The enterprise-grade public network
 - [Hedera Mirror Node](https://docs.hedera.com/guides/core-concepts/mirror-nodes/) - provides a way to store and cost-effectively query historical data from the public ledger
 - [Hedera Hashgraph JavaScript SDK](https://github.com/hashgraph/hedera-sdk-js) - The easiest way to use Hedera in JavaScript
